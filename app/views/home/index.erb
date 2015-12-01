@@ -1,0 +1,8 @@
+<h2>Пароль с использованием джема:</h2>
+<b>Стандартный:</b> <%= password_with_gem %><br/>
+<b>С опциями:</b> <%= password_with_gem(count: 3, join: '.') %><br/>
+<b>С цифрами:</b> <%= password_with_gem(count: 3, join: '.', nums: 3) %><br/>
+
+<h2>Русские пароли, генерируемые самостоятельно:</h2>
+<b>Стандартный:</b> <%= password_russian %><br/>
+<b>С цифрами:</b> <%= password_russian(nums: 3) %><br/>
